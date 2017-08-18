@@ -1,0 +1,144 @@
+.zoombox {
+  position: fixed;
+  bottom: 0;
+  right: calc((100% - 378px) / 2);
+  padding: 5px 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #fafafa;
+  >div {
+    float: left;
+  }
+  >div:nth-child(1) {
+    width: 200px;
+  }
+  .toolbutton{
+    margin-left: 20px;
+    padding-top: 8px;
+    color: #324057;
+    cursor: pointer;
+    transform: scale(1.4);
+  }
+}
+.isselected{
+  border: 2px solid #ff7269 !important;
+}
+.ismouseover:hover{
+  border: 2px dashed #fff;
+}
+
+.resizetips{
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+.movetips{
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.laytools{
+  background-color: #ff7269;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: -55px;
+  right: 0;
+  >i{
+    cursor: pointer;
+    transform: scale(1.3);
+    margin: 0 5px;
+  }
+  >i:hover {
+    color: #58B7FF;
+  }
+}
+
+/*加载动画CSS*/
+.loadingspan{
+  width: 140px;
+  height: 60px;
+  margin: 250px auto;
+  position: relative;
+}
+.loadingcontainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+.loadingtext{
+  padding-top: 50px;
+  text-align: center;
+  color: #a8a8a8;
+}
+.k-ball-holder3 {
+  margin-left:33%
+}
+.k-ball7a {
+  border:0;
+  margin:0;
+  width:16px;
+  height:16px;
+  position:absolute;
+  border-radius:50%;
+  animation:k-loadingO 2s ease infinite;
+  background: #24e5c0;
+  animation-delay:-1.5s
+}
+.k-ball7b {
+  border:0;
+  margin:0;
+  width:16px;
+  height:16px;
+  position:absolute;
+  border-radius:50%;
+  animation:k-loadingO 2s ease infinite;
+  background:#F63D3A;
+  animation-delay:-1s
+}
+.k-ball7c {
+  border:0;
+  margin:0;
+  width:16px;
+  height:16px;
+  position:absolute;
+  border-radius:50%;
+  animation:k-loadingO 2s ease infinite;
+  background: #ff8d2d;
+  animation-delay:-0.5s
+}
+.k-ball7d {
+  border:0;
+  margin:0;
+  width:16px;
+  height:16px;
+  position:absolute;
+  border-radius:50%;
+  animation:k-loadingO 2s ease infinite;
+  background: #146dff
+}
+@keyframes k-loadingO {
+  0%,100% {
+    transform:translate(0)
+  }
+  25% {
+    transform:translate(160%)
+  }
+  50% {
+    transform:translate(160%,160%)
+  }
+  75% {
+    transform:translate(0,160%)
+  }
+}

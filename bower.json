@@ -1,0 +1,17 @@
+{
+  "name": "udatav",
+  "description": "uinnova bigscreen project",
+  "main": "",
+  "authors": [
+    "leiting <leiting@uinnova.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

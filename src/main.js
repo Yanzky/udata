@@ -1,0 +1,7 @@
+import '!style-loader!css-loader!../node_modules/element-ui/lib/theme-default/index.css'
+import '!style-loader!css-loader!../bower_components/font-awesome/css/font-awesome.min.css'
+import '!style-loader!css-loader!../bower_components/PACE/themes/orange/pace-theme-center-simple.css'
+import '!style-loader!css-loader!../bower_components/bootstrap/dist/css/bootstrap.min.css'
+import './util/axiosinterceptors'
+import './util/string'
+import './router'
